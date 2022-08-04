@@ -7,7 +7,7 @@ import Logo from '../assets/logo_primary.svg'
 import { Button } from '../components/Button';
 import { Input } from '../components/Input';
 
-export function Signin() {
+export function SignIn() {
   const { colors } = useTheme()
 
   const [ name, setName ] = useState('')
